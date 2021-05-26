@@ -123,6 +123,7 @@ section{
     background-color: #f2f3f6;
     border-radius: 10px;
     padding: 35px 0;
+    
     transition: background 0.2s, color 0.2s;
 }
 
