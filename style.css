@@ -1,20 +1,23 @@
 *,
 *::after,
-*::before body {
+*::before, body {
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   color: #111238;
   margin: 0;
   padding: 0;
+  
 }
 header {
   background-color: #f2f3f6;
+
 }
 .menu {
   list-style: none;
   padding: 0;
   margin: 0;
+ 
 }
 
 .menu-item:not(:last-child) {
@@ -29,6 +32,7 @@ header {
   display: inline-block;
   border: none;
   font-size: 16px;
+  border: 1px solid red;
 }
 .button-icon {
   vertical-align: middle;
